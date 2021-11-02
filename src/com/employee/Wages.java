@@ -1,15 +1,20 @@
 package com.employee;
 
 public class Wages {
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		int Ispresent = 1;
+		int parttime =1;
 		double employee = Math.floor(Math.random()*2);
 				System.out.println(employee);	
 		if (employee == Ispresent)
 			{
-				System.out.println("Employee is present");
+		if (parttime == Ispresent) {
+           int wages=160;
+			System.out.println("part time emplloyee is present \n wages" +wages);	
+			}
+//				System.out.println("Employee is present");
 			int	wages = 160;
-				System.out.println("the employee wages is " +wages);
+//				System.out.println("the employee wages is " +wages);
 			}
 		else 
 		{
@@ -19,5 +24,3 @@ public class Wages {
 		}
 	}
 }
-
-		
