@@ -33,15 +33,20 @@ if(attendance == 1) {
 
      exp=0;
 switch(exp) {
-	case 0:
-		wages=0;
-			System.out.println("Employee is absent \nwages = " + wages);
-	case 1:
-		wages=160;
-			System.out.println("Employee is present & PartTime \nwages = " + wages);
-	case 2:
-		wages=160;
-			System.out.println("Employee is present & FullTime \nwages = " + wages);
+case 0:
+	   wages=0;
+	   wages=0 * 20 ;
+		System.out.println("Employee is absent \nwages = " + wages);
+
+case 1:
+	   wages=160;
+	   wages=160 *20 ;
+		System.out.println("Employee is present & PartTime \nwages = " + wages);
+
+case 2:
+	  wages=160;
+	  wages=160 * 20 ;
+		System.out.println("Employee is present & FullTime \nwages = " + wages);
 
 		} 
 	}
