@@ -10,7 +10,7 @@ public static void main(String[] args) {
     	System.out.println(attendance);
     System.out.println(attendance);
 if(attendance == 1) {
-   		//System.out.println("Employee is present");
+   		System.out.println("Employee is present");
    if(partTime == 1) {
    		wages=160;
    		System.out.println("Employee is present & PartTime \nwages = " + wages);
